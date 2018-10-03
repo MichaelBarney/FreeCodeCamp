@@ -1,0 +1,112 @@
+body{
+    background-color: #ffbb22;
+    /*overflow: hidden;*/
+}
+#loading{
+    background-color: #ffbb22;
+    position: absolute;
+    top: 0; right:0; left:0; bottom:0;
+    z-index:999;
+    color: white;
+    font-size: 30pt;
+    text-align: center;
+    padding-top: 200px;
+}
+#back{
+    height: 100vh;
+}
+
+#holder{
+    display: table;
+    position: absolute;
+    top: 50px;
+}
+#quotes{
+    font-family: 'Merriweather', serif;
+    color: white;
+    text-align: justify;
+    height: 100vh;
+    width: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    padding: 0px;
+
+}
+#quotes p{
+    display: inline;
+    font-size: 40pt;
+}
+#quotes .wat{
+    font-size: 40pt;
+}
+
+#social{
+    margin-top: 30px;
+    font-size: 15pt;
+    padding: 0;
+}
+
+#quoteButton{
+     font-family: 'Droid Sans', serif;
+     font-weight: bold;
+     font-size: 16pt;
+     float: right;
+     margin-top: 3px;
+     padding: 3px 6px 3px 6px;
+     
+     text-align: center;
+     
+     border-style: solid;
+     border-color: white;
+     border-radius: 20px;
+     border-width: 4px;
+}
+
+#homer{
+    display: none;
+    width: 45vw;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.eye{
+    height: 1.7vw;
+    width: 1.7vw;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    
+    transition: left 0.2s, top 0.2s;
+}
+
+#eye-right{
+    top: 36%;    
+    left: 62%;
+}
+
+#eye-left{
+    top: 35%;    
+    left: 48%;
+}
+
+.hover-button{
+    transition: color 0.5s, border-color 0.5s;
+}
+a:link {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+a:visited {
+    text-decoration: inherit;
+    color: inherit;
+    cursor: pointer;
+}
+
+
+#footer{
+    color: white;
+    margin-top: 200px;
+    text-align: center;
+}

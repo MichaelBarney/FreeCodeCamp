@@ -1,0 +1,45 @@
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta charset="UTF-8">
+    <title>Local Weather</title>
+    
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css'>
+    <link rel="stylesheet" href="css/style.css">
+    
+    
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Merriweather+Sans" rel="stylesheet">
+    <link href="css/owfont/css/owfont-regular.css" rel="stylesheet" type="text/css">
+</head>
+
+<body class="container-fluid">
+    <div id="back">
+        <div id="black-fill"></div>
+        <p id="data"><p>
+    </div>
+    
+
+  
+    <div class="myContainer">
+        <div id="unit-button">°C<div id="button-holder"><div></div></div>°F</div>
+        <form><input type="text" name="city" placeholder="Search a City" style="width:90%; color:black; padding-left: 30px; border-radius: 15px; margin-top: 30px; margin-left:15px; margin-right: 15px;"/></form>
+        <div id="shower" class="animated" style="display: none;">
+            <h1 id = "city" style="margin-bottom: 10px;"></h1>
+            <hr style="width: 45%;">
+            <div class="col-xs-6" style="margin-top:5px;">
+                <h4 id="weather"></h4>
+                <hr style="width: 50%; margin-top: 5px; margin-bottom: 5px;">
+                <h3 id="temp"></h3>
+            </div>
+        </div>
+        
+        <i id = "w_icon" class="owf" style="font-size: 100pt; margin-top: 10px;"></i>
+    </div>
+
+    <div id="footer">
+        <h4>Developed by <a href="http://michaelbarney.com" target="_blank" class="hover-button"><b>Michael Barney</b></a></h4>
+    </div>
+    
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+    <script  src="js/index.js"></script>
+</body>
